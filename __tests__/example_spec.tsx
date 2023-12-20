@@ -1,15 +1,7 @@
 import { expect, test } from 'vitest'
 import '@testing-library/jest-dom'
 import { render } from '@tests/support'
-
-function Example() {
-  return (
-    <div>
-      <header role="heading">hello there</header>
-      <button disabled={true}></button>
-    </div>
-  )
-}
+import { Example } from './example'
 
 test('loads and displays greeting', async () => {
   // ARRANGE
