@@ -20,11 +20,19 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@app/*": [
+        "./src/*"
+      ],
+      "@tests/*": [
+        "./__tests__/*"
+      ],
+    },
   },
   "include": [
     "src",
-    "__test__"
+    "__tests__"
   ],
   "references": [
     {

@@ -1,7 +1,6 @@
-import React from 'react'
 import { expect, test } from 'vitest'
-import { render } from './support/wrapper'
 import '@testing-library/jest-dom'
+import { render } from '@tests/support'
 
 function Example() {
   return (

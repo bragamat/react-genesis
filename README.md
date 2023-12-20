@@ -3,6 +3,7 @@
 - Reactjs
 - Typescript
 - React Router Dom
+- React Testing Library
 - Vite
 - Vitest
 - Tailwindcss
