@@ -7,5 +7,6 @@
 - Vite
 - Vitest
 - Tailwindcss
+- Storybook
 - Eslint
 - Prettier

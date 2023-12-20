@@ -16,6 +16,9 @@ lint:
 	@yarn lint
 .PHONY: lint
 
+story:
+	@yarn storybook
+.PHONY: story
 
 test:
 	@yarn test

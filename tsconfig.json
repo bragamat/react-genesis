@@ -25,13 +25,17 @@
       "@app/*": [
         "./src/*"
       ],
+      "@components/*": [
+        "./src/components/*"
+      ],
       "@tests/*": [
         "./__tests__/*"
       ],
     },
   },
   "include": [
-    "src",
+    "src/",
+    "./src/**/*.{ts, tsx}",
     "__tests__"
   ],
   "references": [
