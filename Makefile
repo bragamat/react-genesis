@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := dev
 
+build: deps
+	@yarn build
+.PHONY: build
+
 dev: deps
 	@yarn dev
 .PHONY: dev
