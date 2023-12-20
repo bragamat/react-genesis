@@ -15,3 +15,8 @@ lint.fix:
 lint:
 	@yarn lint
 .PHONY: lint
+
+
+test:
+	@yarn test
+.PHONY: test
