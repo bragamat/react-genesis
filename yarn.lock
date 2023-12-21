@@ -2790,10 +2790,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.14.0":
-  version: 1.14.0
-  resolution: "@remix-run/router@npm:1.14.0"
-  checksum: 1a64439087ed77b4eec804f55ba9bbb63275eb756f0c6ef8cfa7d92609e29bb8d87d03f3b5446586130d12d2bd59f799baed167044ee80f6dce5456609c317d4
+"@remix-run/router@npm:1.14.1":
+  version: 1.14.1
+  resolution: "@remix-run/router@npm:1.14.1"
+  checksum: aa179e96fa7da5bdb86e6887219613cbe47b67d6595564b4f8fe7e80f8980f9c76e120524f0864aa8af46ac0f1a06bcdb4d20058d770c9199e5af599f772c0a9
   languageName: node
   linkType: hard
 
@@ -3999,6 +3999,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/debug@npm:^4.1.12":
+  version: 4.1.12
+  resolution: "@types/debug@npm:4.1.12"
+  dependencies:
+    "@types/ms": "npm:*"
+  checksum: 5dcd465edbb5a7f226e9a5efd1f399c6172407ef5840686b73e3608ce135eeca54ae8037dcd9f16bdb2768ac74925b820a8b9ecc588a58ca09eca6acabe33e2f
+  languageName: node
+  linkType: hard
+
 "@types/detect-port@npm:^1.3.0":
   version: 1.3.5
   resolution: "@types/detect-port@npm:1.3.5"
@@ -4183,6 +4192,13 @@ __metadata:
   version: 5.1.2
   resolution: "@types/minimatch@npm:5.1.2"
   checksum: 83cf1c11748891b714e129de0585af4c55dd4c2cafb1f1d5233d79246e5e1e19d1b5ad9e8db449667b3ffa2b6c80125c429dbee1054e9efb45758dbc4e118562
+  languageName: node
+  linkType: hard
+
+"@types/ms@npm:*":
+  version: 0.7.34
+  resolution: "@types/ms@npm:0.7.34"
+  checksum: ac80bd90012116ceb2d188fde62d96830ca847823e8ca71255616bc73991aa7d9f057b8bfab79e8ee44ffefb031ddd1bcce63ea82f9e66f7c31ec02d2d823ccc
   languageName: node
   linkType: hard
 
@@ -5960,7 +5976,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-equal@npm:^2.0.5":
+"deep-equal@npm:^2.0.5, deep-equal@npm:^2.2.3":
   version: 2.2.3
   resolution: "deep-equal@npm:2.2.3"
   dependencies:
@@ -6754,6 +6770,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"esprima-extract-comments@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "esprima-extract-comments@npm:1.1.0"
+  dependencies:
+    esprima: "npm:^4.0.0"
+  checksum: 1fbb18188051668bee7406dd81d36fff30c818816c7c8bcf63931b8636ff159c6c95d5c62c6a752efaf54b9385ebcf86c7cbf847998e1ab85143dd4ee0b80ee0
+  languageName: node
+  linkType: hard
+
 "esprima@npm:^4.0.0, esprima@npm:^4.0.1, esprima@npm:~4.0.0":
   version: 4.0.1
   resolution: "esprima@npm:4.0.1"
@@ -6954,6 +6979,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"extract-comments@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "extract-comments@npm:1.1.0"
+  dependencies:
+    esprima-extract-comments: "npm:^1.1.0"
+    parse-code-context: "npm:^1.0.0"
+  checksum: de3f9824f6d07ec995379dfd09e659fa56991bb5d72fd1f6ec3084dffc7993170b3548f3af3710182df43ec69317a872cd82623702a4cdbe6f8ec4c089a1f0d1
+  languageName: node
+  linkType: hard
+
 "extract-zip@npm:2.0.1":
   version: 2.0.1
   resolution: "extract-zip@npm:2.0.1"
@@ -7013,7 +7048,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0":
+"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -9805,6 +9840,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"parse-code-context@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "parse-code-context@npm:1.0.0"
+  checksum: 67aecc80e046489425a62ef997fbb8558c534120f4e11c416383cadf633a5c53c727091e7fe6dc9dc8486b36dd6db90807533223235584665867d5aacdfff9f3
+  languageName: node
+  linkType: hard
+
 "parse-json@npm:^5.0.0":
   version: 5.2.0
   resolution: "parse-json@npm:5.2.0"
@@ -10528,27 +10570,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.21.0":
-  version: 6.21.0
-  resolution: "react-router-dom@npm:6.21.0"
+"react-router-dom@npm:^6.21.1":
+  version: 6.21.1
+  resolution: "react-router-dom@npm:6.21.1"
   dependencies:
-    "@remix-run/router": "npm:1.14.0"
-    react-router: "npm:6.21.0"
+    "@remix-run/router": "npm:1.14.1"
+    react-router: "npm:6.21.1"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 635b233dd993599954f82fba9f4baa915061a75bfac79fff142aecdfa4ed418efd7de32e0455b50715fc11250951f049bbd3ead4cb55cfe09fe35c1948717359
+  checksum: 2c2b653de8cc90397e5b057c0d32dd780fe894c4bd36397005da169a7422b31988ebc14ef0da3ac3f2b7286b244f97a141974acaa86c731715816e64c8cd2912
   languageName: node
   linkType: hard
 
-"react-router@npm:6.21.0":
-  version: 6.21.0
-  resolution: "react-router@npm:6.21.0"
+"react-router@npm:6.21.1, react-router@npm:^6.21.1":
+  version: 6.21.1
+  resolution: "react-router@npm:6.21.1"
   dependencies:
-    "@remix-run/router": "npm:1.14.0"
+    "@remix-run/router": "npm:1.14.1"
   peerDependencies:
     react: ">=16.8"
-  checksum: ff499df6994353b79ddd4abf35004c4dce944668fa16b18896a72ba255447d3f5ca50018d90f3034abbe08b87a5757141b09144f8eb17e4f375d8850373a11c3
+  checksum: 81278cf25a999d7c93a31d540102e3b74b696eb4349779e22bba77b633e4e5f8f91b8c6f7946c9572a1e92f64363724150216f5643a6f9817f8bc1643cb8bdbc
   languageName: node
   linkType: hard
 
@@ -10615,12 +10657,14 @@ __metadata:
     prettier: "npm:^3.1.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    react-router-dom: "npm:^6.21.0"
+    react-router: "npm:^6.21.1"
+    react-router-dom: "npm:^6.21.1"
     sort-by: "npm:^1.2.0"
     storybook: "npm:^7.6.6"
     tailwindcss: "npm:^3.4.0"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.0.8"
+    vite-plugin-pages: "npm:^0.32.0"
     vite-tsconfig-paths: "npm:^4.2.2"
     vitest: "npm:^1.1.0"
   languageName: unknown
@@ -12413,6 +12457,29 @@ __metadata:
   bin:
     vite-node: vite-node.mjs
   checksum: 0162f6b2bea58278fd32bfdd1ed72a2583fd803adaad3456881a6b2ff3ff89404c1746c841990ae985c324b2a8aa06559d7d2be1776328b998f31e099e965e34
+  languageName: node
+  linkType: hard
+
+"vite-plugin-pages@npm:^0.32.0":
+  version: 0.32.0
+  resolution: "vite-plugin-pages@npm:0.32.0"
+  dependencies:
+    "@types/debug": "npm:^4.1.12"
+    debug: "npm:^4.3.4"
+    deep-equal: "npm:^2.2.3"
+    extract-comments: "npm:^1.1.0"
+    fast-glob: "npm:^3.3.2"
+    json5: "npm:^2.2.3"
+    local-pkg: "npm:^0.5.0"
+    picocolors: "npm:^1.0.0"
+    yaml: "npm:^2.3.4"
+  peerDependencies:
+    "@vue/compiler-sfc": ^2.7.0 || ^3.0.0
+    vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0
+  peerDependenciesMeta:
+    "@vue/compiler-sfc":
+      optional: true
+  checksum: d2ff92cf7a23a9ad012bf40c599c3e5857b0a3afe0ffcda14d1fdb0c9fdc227273ee395a7bdc046ad998064a19b1980d87f372a16f4356f0b34a3b97a63ddf6b
   languageName: node
   linkType: hard
 
