@@ -24,6 +24,11 @@ story:
 	@yarn storybook
 .PHONY: story
 
+
+e2e:
+	@yarn e2e
+.PHONY: e2e
+
 test:
 	@yarn test
 .PHONY: test

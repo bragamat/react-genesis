@@ -6605,6 +6605,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-cypress@npm:^2.15.1":
+  version: 2.15.1
+  resolution: "eslint-plugin-cypress@npm:2.15.1"
+  dependencies:
+    globals: "npm:^13.20.0"
+  peerDependencies:
+    eslint: ">= 3.2.1"
+  checksum: f404adf415ef6b986d3480397a26eb73976a9156bbf786f2d22b8df28bbf0e50d4b3c699caefd230f0de9d6e8850596ab1bcc471b173aede05373d2a5ae3c624
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-prettier@npm:^5.1.0":
   version: 5.1.0
   resolution: "eslint-plugin-prettier@npm:5.1.0"
@@ -7591,7 +7602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.19.0":
+"globals@npm:^13.19.0, globals@npm:^13.20.0":
   version: 13.24.0
   resolution: "globals@npm:13.24.0"
   dependencies:
@@ -10591,6 +10602,7 @@ __metadata:
     cypress: "npm:^13.6.1"
     eslint: "npm:^8.55.0"
     eslint-config-prettier: "npm:^9.1.0"
+    eslint-plugin-cypress: "npm:^2.15.1"
     eslint-plugin-prettier: "npm:^5.1.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.4.5"
