@@ -11,3 +11,10 @@
 - Storybook
 - Eslint
 - Prettier
+
+## GRAPHQL ?
+
+Checkout `graphql` branch:
+
+- https://github.com/bragamat/react-ts-boilerplate/tree/graphql
+- `git checkout graphql`
