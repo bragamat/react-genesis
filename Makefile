@@ -24,6 +24,9 @@ story:
 	@yarn storybook
 .PHONY: story
 
+graphql:
+	@yarn generate
+.PHONY: graphql
 
 e2e:
 	@yarn e2e

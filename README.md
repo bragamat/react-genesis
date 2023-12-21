@@ -1,4 +1,4 @@
-# Reactjs + Typescript = Boilerplate
+# Reactjs + Typescript + graphql = Boilerplate
 
 - Reactjs
 - Typescript
