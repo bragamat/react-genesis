@@ -1,5 +1,5 @@
 /** @type {import('eslint').Config} */
-export default {
+module.exports = {
   root: true,
   env: { browser: true, es2020: true },
   extends: [
@@ -10,13 +10,17 @@ export default {
     'plugin:storybook/recommended',
     'plugin:cypress/recommended'
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs'
+  ],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', 'cypress'],
+  plugins: ['react-refresh', 'cypress'
+  ],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
-      { allowConstantExport: true },
+      {
+        allowConstantExport: true
+      },
     ],
   },
 }
