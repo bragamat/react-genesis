@@ -4,7 +4,7 @@ build: deps
 	@yarn build
 .PHONY: build
 
-dev: deps
+dev: deps graphql
 	@yarn dev
 .PHONY: dev
 
@@ -24,6 +24,9 @@ story:
 	@yarn storybook
 .PHONY: story
 
+graphql:
+	@yarn generate
+.PHONY: graphql
 
 e2e:
 	@yarn e2e
@@ -32,3 +35,10 @@ e2e:
 test:
 	@yarn test
 .PHONY: test
+
+prod:
+	@docker kill react-genesis || true
+	./scripts/build-docker-image.sh
+	./scripts/start-prod.sh
+.PHONY: prod
+

@@ -1,0 +1,8 @@
+dist/
+cypress/
+__tests__/
+.storybook/
+.github/
+.git/
+node_modules/
+npm-debug.log

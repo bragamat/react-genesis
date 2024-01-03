@@ -36,7 +36,8 @@
   "include": [
     "src/",
     "./src/**/*.{ts, tsx}",
-    "__tests__"
+    ".storybook/",
+    "__tests__",
   ],
   "references": [
     {
