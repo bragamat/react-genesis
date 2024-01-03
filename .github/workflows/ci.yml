@@ -1,6 +1,6 @@
 name: CI
 
-on: 
+on:
   push:
     branches: [ main ]
   pull_request:
@@ -14,8 +14,7 @@ jobs:
     - name: Set node.js version @18
       uses: actions/setup-node@v2
       with:
-        node-version: '18'
-
+        node-version: '18.14.1'
     - name: Install dependencies
       run: make deps
 
