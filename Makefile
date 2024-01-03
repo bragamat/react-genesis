@@ -4,7 +4,7 @@ build: deps
 	@yarn build
 .PHONY: build
 
-dev: deps graphql
+dev: deps
 	@yarn dev
 .PHONY: dev
 
@@ -23,10 +23,6 @@ lint:
 story:
 	@yarn storybook
 .PHONY: story
-
-graphql:
-	@yarn generate
-.PHONY: graphql
 
 e2e:
 	@yarn e2e
